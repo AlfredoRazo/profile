@@ -1,0 +1,16 @@
+<mat-toolbar class="mat-elevation-z1">
+    <span>Alfredo Garduño</span>
+    <span class="spacer"></span>
+    <a mat-icon-button aria-label="GitHub" href="https://github.com/AlfredoRazo" target="_blank">
+      <i class="fab fa-github fa-lg"></i>
+    </a>
+    <a mat-icon-button aria-label="LinkedIn" href="https://www.linkedin.com/in/alfredo-garduño-dev" target="_blank">
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+    <a mat-icon-button aria-label="Twitter" href="https://twitter.com/FreddRazo" target="_blank">
+      <i class="fab fa-twitter fa-lg"></i>
+    </a>
+    <button mat-icon-button aria-label="lang" [routerLink]="lang" (click)="toggleLang()">
+      <mat-icon>translate</mat-icon>
+    </button>
+  </mat-toolbar>
