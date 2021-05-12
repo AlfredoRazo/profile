@@ -8,14 +8,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 }
 .main-tittle{
   text-align: center;
-  font-size: 62px;
+  font-size: 3.5vw;
   margin-bottom: 120px;
 }
 .head-content{
     margin-top: 1px;
     position: relative;
     text-align: center;
-    font-size: 70px;
+    font-size: 4vw;
     min-height: 200px;
     color: #484349;
     background-color: #c3e6db;
@@ -45,6 +45,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
     text-align: center;
     margin-top: 90px;
   }
+  .img-container img {
+    width: 47%;
+  }
   .container-accent{
     width: 100%;
     min-height: 300px;
@@ -53,8 +56,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
     margin-top: -64px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 30px;
+    padding: 2vw;
   }
+  
   
   hr {border: 3px solid #16697a; border-radius: 300px/10px; height: 0px; text-align: center;}
 
@@ -65,5 +69,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 
   .skills h3{
     color:#16697a;
-    font-size: 30px;
+    font-size: 4vw;
   }
